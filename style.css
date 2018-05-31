@@ -1,0 +1,109 @@
+html {
+    --background-color: rgba(255,255,255,0.1);
+    --visibility: hidden;
+}
+
+
+body {
+    background-image: url("berg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}   
+#header {
+    width:100%;
+    height:15vh;
+    background-color: rgba(0,0,0,0.7);
+    border-style: solid;
+    border: 0;
+    
+}
+
+button {
+    width: 15vw;
+    height: 10vh;
+    background-color: var(--background-color);
+    border: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: arial;
+    font-size: 20px;
+    color: #FFF;
+    position: relative;
+}
+
+#nameHolder {
+   
+    margin-top: 50px;
+    height:50vh;
+    
+}
+
+#name {
+    font-size: 60px;
+    font-family: 'Shadows into light', cursive;
+    font-family: 'Waiting for the sunrise', cursive;
+    margin-top: 20vh;
+    margin-left: 39%
+    
+}
+
+#aboutmeinfo {
+    
+    width: 56%;
+    height: 80%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    visibility: var(--visibility);
+    border: 0;
+    
+}
+
+#imageHolder {
+    border: 0;
+    height: 40%;
+    position: absolute;
+    width: 30%;
+    margin-top: 2%;
+    
+    
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 125px;
+    border: 0;
+    margin-left: 2%
+    
+    
+}
+
+#textHolder {
+    margin-left: 35%;
+    margin-top: 5%;
+    border-style: solid;
+    width: 35vw;
+    border: 0;
+}
+
+#aboutmetext {
+    
+    font-family: 'Waiting for the sunrise', cursive;
+    font-family:'Acme';
+    color:aliceblue;
+    font-size: 18px;
+    
+    
+}
+
+#contacttext {
+    font-size: 15px;
+    color:aliceblue;
+    font-family: arial;
+    float: right;
+    margin-top: 39px;
+    margin-right: 10px;
+    
+}
